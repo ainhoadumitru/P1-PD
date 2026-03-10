@@ -1,0 +1,22 @@
+## Leer un valor del convertidor A/D
+
+Este programa lee un valor analógico y lo envía por el puerto serie.
+
+```cpp
+#include <Arduino.h>
+
+int sensorPin = 34;
+
+void setup() {
+  Serial.begin(115200);
+}
+
+void loop() {
+
+  int valor = analogRead(sensorPin);
+
+  Serial.print("Valor ADC: ");
+  Serial.println(valor);
+
+  delay(500);
+}
