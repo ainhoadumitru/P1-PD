@@ -1,0 +1,28 @@
+Inicio
+  |
+  v
+Configurar pin LED como salida
+  |
+  v
+Iniciar comunicación serie
+  |
+  v
+Encender LED
+  |
+  v
+Enviar "ON" por puerto serie
+  |
+  v
+Esperar 500 ms
+  |
+  v
+Apagar LED
+  |
+  v
+Enviar "OFF" por puerto serie
+  |
+  v
+Esperar 500 ms
+  |
+  v
+Repetir bucle
